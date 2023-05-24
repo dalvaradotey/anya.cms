@@ -30,7 +30,8 @@
       ]
     },
     "description": {
-      "type": "text"
+      "type": "string",
+      "maxLength": 256
     },
     "content": {
       "type": "richtext"
@@ -40,6 +41,14 @@
       "relation": "manyToOne",
       "target": "api::author.author",
       "inversedBy": "posts"
+    },
+    "metaTitle": {
+      "type": "string",
+      "maxLength": 60
+    },
+    "metaDescription": {
+      "type": "string",
+      "maxLength": 160
     }
   }
 }
