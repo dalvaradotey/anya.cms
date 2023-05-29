@@ -38,6 +38,12 @@
     "isTop": {
       "type": "boolean",
       "default": false
+    },
+    "colors": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::color.color",
+      "inversedBy": "products"
     }
   }
 }
