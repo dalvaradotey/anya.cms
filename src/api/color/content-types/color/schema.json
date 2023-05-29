@@ -4,7 +4,8 @@
   "info": {
     "singularName": "color",
     "pluralName": "colors",
-    "displayName": "Color"
+    "displayName": "Colores",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
